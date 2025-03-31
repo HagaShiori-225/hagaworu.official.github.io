@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+	background-color: #ffdfe5;
+	color: #6f5753;
+}
+
+.zen-old-mincho-regular {
+	font-family: "Zen Old Mincho", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+  
+.zen-old-mincho-bold {
+	font-family: "Zen Old Mincho", serif;
+	font-weight: 700;
+	font-style: normal;
+} 
+
+.zen-antique-regular {
+	font-family: "Zen Antique", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+section {
+	font-family: "Zen Antique", "Yu Mincho",serif;
+	font-size: 3.5vw;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+}
+@media (max-width: 900px) {
+	section {
+		font-family: "Zen Antique", "Yu Mincho",serif;
+		font-size: 6.5vw;
+		font-weight: 500;
+		font-style: normal;
+		text-align: center;
+	}
+}
+
+.fullscreen-image {
+    top: 0;
+    left: 0;
+	right: 0;
+    max-height: 100vh;
+	max-width: 100vh;
+	object-fit: contain;
+}
+
+.title{
+	font-size: 7vw;
+	background-color: #6f5753;
+	color: #ffffff;
+	margin-top: 1em;
+    margin-bottom: 1em;
+}
+@media (max-width: 1200px) {
+	.title{
+		font-size: 12.5vw;
+		background-color: #6f5753;
+		color: #ffffff;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+}
+
+.ttf{
+	color: #aacf53;
+}
+
+.space {
+	margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.anime {
+	font-size: 5vw;
+	margin-top: 1em;
+    margin-bottom: 1em;
+}
+@media (max-width: 900px) {
+	.anime {
+		font-size: 10vw;
+		margin-top: 3em;
+		margin-bottom: 1em;
+	}
+}
+
+.animee {
+	font-size: 5vw;
+	margin-top: 1em;
+    margin-bottom: 1em;
+}
+@media (max-width: 900px) {
+	.animee {
+		font-size: 10vw;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+}
+
+.moji{
+	color: #6f5753;
+}
+
+.mojii{
+	color: #ffdfe5;
+}
+
+.br-mobile {
+    display: none;
+}
+@media (max-width: 900px) {
+    .br-mobile {
+        display: inline;
+    }
+}
+
+footer {
+	font-family: "Zen Old Mincho", serif;
+	font-size: 22.5px;
+	font-weight: 700;
+	font-style: normal;
+	margin-top: auto;
+	padding: 10px;
+    text-align: center;
+}
